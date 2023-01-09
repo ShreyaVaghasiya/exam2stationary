@@ -59,7 +59,7 @@ class _DashBoardState extends State<DashBoard> {
           title: Text(
             "Pocket Stationary",
             style: GoogleFonts.acme(
-              fontSize: 30,
+              fontSize: 20,
               letterSpacing: 1,
               fontWeight: FontWeight.bold,
               color: Colors.white,
@@ -85,7 +85,7 @@ class _DashBoardState extends State<DashBoard> {
                     decoration: InputDecoration(
                         hintText: "Search",
                         hintStyle: GoogleFonts.robotoSlab(
-                            fontSize: 20,
+                            fontSize: 15,
                             color: Colors.black45,
                             fontWeight: FontWeight.bold,
                             letterSpacing: 1),
@@ -382,7 +382,7 @@ class _DashBoardState extends State<DashBoard> {
                           Text(
                             "${Globals.fname} ${Globals.lname}",
                             style: GoogleFonts.robotoSlab(
-                                fontSize: 20,
+                                fontSize: 15,
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,
                                 letterSpacing: 1),
@@ -391,7 +391,7 @@ class _DashBoardState extends State<DashBoard> {
                           Text(
                             "${Globals.phone}",
                             style: GoogleFonts.robotoSlab(
-                                fontSize: 20,
+                                fontSize: 15,
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,
                                 letterSpacing: 1),
@@ -416,7 +416,7 @@ class _DashBoardState extends State<DashBoard> {
                       child: Text(
                         "home",
                         style: GoogleFonts.acme(
-                          fontSize: 30,
+                          fontSize: 20,
                           letterSpacing: 1,
                           fontWeight: FontWeight.bold,
                           color: Colors.black,
@@ -435,7 +435,7 @@ class _DashBoardState extends State<DashBoard> {
                     Text(
                       "My Address",
                       style: GoogleFonts.acme(
-                        fontSize: 30,
+                        fontSize: 20,
                         letterSpacing: 1,
                         fontWeight: FontWeight.bold,
                         color: Colors.black,
@@ -453,7 +453,7 @@ class _DashBoardState extends State<DashBoard> {
                     Text(
                       "feedback",
                       style: GoogleFonts.acme(
-                        fontSize: 30,
+                        fontSize: 20,
                         letterSpacing: 1,
                         fontWeight: FontWeight.bold,
                         color: Colors.black,
@@ -475,7 +475,7 @@ class _DashBoardState extends State<DashBoard> {
                       child: Text(
                         "Log Out",
                         style: GoogleFonts.acme(
-                          fontSize: 30,
+                          fontSize: 20,
                           letterSpacing: 1,
                           fontWeight: FontWeight.bold,
                           color: Colors.black,

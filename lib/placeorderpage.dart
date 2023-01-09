@@ -31,7 +31,7 @@ class _placeorderState extends State<placeorder> {
         title: Text(
           "Pocket Stationary",
           style: GoogleFonts.acme(
-            fontSize: 30,
+            fontSize: 25,
             letterSpacing: 1,
             fontWeight: FontWeight.bold,
             color: Colors.white,
@@ -63,7 +63,7 @@ class _placeorderState extends State<placeorder> {
               child: Text(
                 "  ${cartlist[1]}",
                 style: GoogleFonts.robotoSlab(
-                    fontSize: 35,
+                    fontSize: 25,
                     color: Colors.brown.shade900,
                     fontWeight: FontWeight.bold,
                     letterSpacing: 1),
@@ -77,7 +77,7 @@ class _placeorderState extends State<placeorder> {
                   child: Text(
                     "   ${cartlist[3]}",
                     style: GoogleFonts.robotoSlab(
-                        fontSize: 25,
+                        fontSize: 20,
                         color: Colors.green.shade900,
                         fontWeight: FontWeight.bold,
                         letterSpacing: 1),
@@ -88,7 +88,7 @@ class _placeorderState extends State<placeorder> {
                   child: Text(
                     "     10% off",
                     style: GoogleFonts.robotoSlab(
-                        fontSize: 20,
+                        fontSize: 15,
                         color: Colors.red.shade900,
                         fontWeight: FontWeight.bold,
                         letterSpacing: 1),
@@ -100,9 +100,9 @@ class _placeorderState extends State<placeorder> {
             Align(
               alignment: Alignment.centerLeft,
               child: Text(
-                "    Description :",
+                "   Description :",
                 style: GoogleFonts.robotoSlab(
-                    fontSize: 25,
+                    fontSize: 20,
                     color: Colors.brown.shade900,
                     fontWeight: FontWeight.bold,
                     letterSpacing: 1),
@@ -110,16 +110,20 @@ class _placeorderState extends State<placeorder> {
             ),
             Padding(padding: EdgeInsets.all(2)),
             Align(
-              child: Text(
-                "     A pen is a common writing an\n  ainstrument that applies ink to a\n  surface, usually paper, for writing \n  or drawing.",
-                style: GoogleFonts.robotoSlab(
-                    fontSize: 20,
-                    color: Colors.brown.shade700,
-                    fontWeight: FontWeight.bold,
-                    letterSpacing: 1),
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(
+                  "     A pen is a common writing an  ainstrument that applies ink to a  surface, usually paper, for writing   or drawing.",
+                  style: GoogleFonts.robotoSlab(
+                      fontSize: 15,
+                      color: Colors.brown.shade700,
+                      fontWeight: FontWeight.bold,
+                      letterSpacing: 1),
+                  textAlign: TextAlign.left,
+                ),
               ),
             ),
-            Padding(padding: EdgeInsets.all(10)),
+            Padding(padding: EdgeInsets.all(30)),
             Container(
               height: 120,
               width: 400,
@@ -191,13 +195,13 @@ class _placeorderState extends State<placeorder> {
                           });
                         },
                         child: Container(
-                          height: 60,
-                          width: 220,
+                          height: 50,
+                          width: 200,
                           child: Center(
                             child: Text(
                               "Buy Now",
                               style: GoogleFonts.robotoSlab(
-                                  fontSize: 25,
+                                  fontSize: 20,
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1),

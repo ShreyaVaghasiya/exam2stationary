@@ -298,7 +298,7 @@ class _buy2State extends State<buy2> {
                 margin: EdgeInsets.all(10),
                 child: Icon(
                   Icons.picture_as_pdf,
-                  size: 35,
+                  size: 30,
                   color: Colors.white,
                 )),
           )
@@ -306,7 +306,7 @@ class _buy2State extends State<buy2> {
         title: Text(
           "Your Order",
           style: GoogleFonts.acme(
-            fontSize: 30,
+            fontSize: 25,
             letterSpacing: 1,
             fontWeight: FontWeight.bold,
             color: Colors.white,
@@ -322,7 +322,7 @@ class _buy2State extends State<buy2> {
           Text(
             "   Pocket Stationary",
             style: GoogleFonts.acme(
-              fontSize: 35,
+              fontSize: 30,
               letterSpacing: 1,
               fontWeight: FontWeight.bold,
               color: Colors.brown.shade900,
@@ -339,7 +339,7 @@ class _buy2State extends State<buy2> {
               Text(
                 "   INVOICE  ",
                 style: GoogleFonts.acme(
-                  fontSize: 30,
+                  fontSize: 25,
                   letterSpacing: 1,
                   fontWeight: FontWeight.bold,
                   color: Colors.green.shade900,
@@ -347,7 +347,7 @@ class _buy2State extends State<buy2> {
               ),
               Container(
                 height: 50,
-                width: 45,
+                width: 58,
                 color: Colors.brown.shade900,
               ),
             ],
@@ -356,7 +356,7 @@ class _buy2State extends State<buy2> {
           Text(
             "   Invoice to : ",
             style: GoogleFonts.lato(
-              fontSize: 20,
+              fontSize: 15,
               color: Color(0xff3C2317),
               fontWeight: FontWeight.bold,
             ),
@@ -365,7 +365,7 @@ class _buy2State extends State<buy2> {
           Text(
             "  ${Globals.fname} ${Globals.lname}",
             style: GoogleFonts.lato(
-              fontSize: 25,
+              fontSize: 20,
               color: Color(0xff3C2317),
               fontWeight: FontWeight.bold,
             ),
@@ -373,7 +373,7 @@ class _buy2State extends State<buy2> {
           Text(
             "   ${Globals.add}",
             style: GoogleFonts.lato(
-              fontSize: 20,
+              fontSize: 15,
               color: Color(0xff3C2317),
               fontWeight: FontWeight.bold,
             ),
@@ -381,7 +381,7 @@ class _buy2State extends State<buy2> {
           Text(
             "   Date : 15/10/2022",
             style: GoogleFonts.lato(
-              fontSize: 20,
+              fontSize: 15,
               color: Color(0xff3C2317),
               fontWeight: FontWeight.bold,
             ),

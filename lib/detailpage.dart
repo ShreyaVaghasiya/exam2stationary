@@ -67,7 +67,7 @@ class _DetailState extends State<Detail> {
         title: Text(
           "Pocket Stationary",
           style: GoogleFonts.acme(
-            fontSize: 30,
+            fontSize: 25,
             letterSpacing: 1,
             fontWeight: FontWeight.bold,
             color: Colors.white,
@@ -114,7 +114,7 @@ class _DetailState extends State<Detail> {
                     Padding(padding: EdgeInsets.all(10)),
                     Center(
                       child: Text("Filter",style: GoogleFonts.robotoSlab(
-                        fontSize: 25,
+                        fontSize: 20,
                         letterSpacing: 1,
                         fontWeight: FontWeight.bold,
                         color: Colors.black,
@@ -124,283 +124,7 @@ class _DetailState extends State<Detail> {
                 ),
               ),
             ),
-            // (Globals.start<=10000 && Globals.end>=0)?
-            // Column(
-            //   children: [
-            //      Container(
-            //       margin: EdgeInsets.all(10),
-            //       child: Container(
-            //         height: 200,
-            //         width: 400,
-            //         decoration: BoxDecoration(
-            //           border: Border.all(color: Color(0xff594545),width: 5),
-            //           borderRadius: BorderRadius.circular(5),
-            //           color: Colors.black12,
-            //         ),
-            //         child: Row(
-            //           children: [
-            //             Padding(padding: EdgeInsets.all(10)),
-            //             Image(image: AssetImage(product[1]['pic']),
-            //               height: 150,
-            //             ),
-            //             Padding(padding: EdgeInsets.all(10)),
-            //             Column(
-            //               mainAxisAlignment: MainAxisAlignment.center,
-            //               crossAxisAlignment:CrossAxisAlignment.start ,
-            //               children: [
-            //                 Text("${product[1]['name']}",style: GoogleFonts.cambo(
-            //                   fontSize: 23,
-            //                   letterSpacing: 1,
-            //                   fontWeight: FontWeight.bold,
-            //                   color: Color(0xff3C2317),
-            //                 ),),
-            //                 Padding(padding: EdgeInsets.all(5)),
-            //                 Text("${product[1]['sub']}",style: GoogleFonts.cambo(
-            //                   fontSize: 20,
-            //                   letterSpacing: 1,
-            //                   fontWeight: FontWeight.bold,
-            //                   color: Color(0xff3C2317),
-            //                 ),),
-            //                 Padding(padding: EdgeInsets.all(5)),
-            //                 Text("${product[1]['pr']}",style: GoogleFonts.cambo(
-            //                   fontSize: 25,
-            //                   letterSpacing: 1,
-            //                   fontWeight: FontWeight.bold,
-            //                   color: Colors.red.shade900,
-            //                 ),),
-            //                 Padding(padding: EdgeInsets.all(2)),
-            //                 Container(
-            //                   height: 30,
-            //                   width: 150,
-            //                   child : Center(
-            //                     child: Text("Add to Cart",style: GoogleFonts.acme(
-            //                       fontSize: 20,
-            //                       letterSpacing: 1,
-            //                       fontWeight: FontWeight.bold,
-            //                       color: Colors.white,
-            //                     ),),
-            //                   ),
-            //                   decoration: BoxDecoration(
-            //                       color: Color(0xff3C2317),
-            //                       borderRadius: BorderRadius.circular(5)
-            //                   ),
-            //                 )
-            //               ],
-            //             )
-            //           ],
-            //         ),
-            //       ),
-            //     ),
-            //
-            //   ],
-            // ):(Globals.start<=20000 && Globals.end>10000)?
-            // Column(
-            //   children: [
-            //     Container(
-            //       margin: EdgeInsets.all(10),
-            //       child: Container(
-            //         height: 200,
-            //         width: 400,
-            //         decoration: BoxDecoration(
-            //           border: Border.all(color: Color(0xff594545),width: 5),
-            //           borderRadius: BorderRadius.circular(5),
-            //           color: Colors.black12,
-            //         ),
-            //         child: Row(
-            //           children: [
-            //             Padding(padding: EdgeInsets.all(10)),
-            //             Image(image: AssetImage(product[2]['pic']),
-            //               height: 150,
-            //             ),
-            //             Padding(padding: EdgeInsets.all(10)),
-            //             Column(
-            //               mainAxisAlignment: MainAxisAlignment.center,
-            //               crossAxisAlignment:CrossAxisAlignment.start ,
-            //               children: [
-            //                 Text("${product[2]['name']}",style: GoogleFonts.cambo(
-            //                   fontSize: 23,
-            //                   letterSpacing: 1,
-            //                   fontWeight: FontWeight.bold,
-            //                   color: Color(0xff3C2317),
-            //                 ),),
-            //                 Padding(padding: EdgeInsets.all(5)),
-            //                 Text("${product[2]['sub']}",style: GoogleFonts.cambo(
-            //                   fontSize: 20,
-            //                   letterSpacing: 1,
-            //                   fontWeight: FontWeight.bold,
-            //                   color: Color(0xff3C2317),
-            //                 ),),
-            //                 Padding(padding: EdgeInsets.all(5)),
-            //                 Text("${product[2]['pr']}",style: GoogleFonts.cambo(
-            //                   fontSize: 25,
-            //                   letterSpacing: 1,
-            //                   fontWeight: FontWeight.bold,
-            //                   color: Colors.red.shade900,
-            //                 ),),
-            //                 Padding(padding: EdgeInsets.all(2)),
-            //                 Container(
-            //                   height: 30,
-            //                   width: 150,
-            //                   child : Center(
-            //                     child: Text("Add to Cart",style: GoogleFonts.acme(
-            //                       fontSize: 20,
-            //                       letterSpacing: 1,
-            //                       fontWeight: FontWeight.bold,
-            //                       color: Colors.white,
-            //                     ),),
-            //                   ),
-            //                   decoration: BoxDecoration(
-            //                       color: Color(0xff3C2317),
-            //                       borderRadius: BorderRadius.circular(5)
-            //                   ),
-            //                 )
-            //               ],
-            //             )
-            //           ],
-            //         ),
-            //       ),
-            //     ),
-            //
-            //   ],
-            // ):(Globals.start<=30000 && Globals.end>20000)?
-            // Column(
-            //   children: [
-            //     Container(
-            //       margin: EdgeInsets.all(10),
-            //       child: Container(
-            //         height: 200,
-            //         width: 400,
-            //         decoration: BoxDecoration(
-            //           border: Border.all(color: Color(0xff594545),width: 5),
-            //           borderRadius: BorderRadius.circular(5),
-            //           color: Colors.black12,
-            //         ),
-            //         child: Row(
-            //           children: [
-            //             Padding(padding: EdgeInsets.all(10)),
-            //             Image(image: AssetImage(product[3]['pic']),
-            //               height: 150,
-            //             ),
-            //             Padding(padding: EdgeInsets.all(10)),
-            //             Column(
-            //               mainAxisAlignment: MainAxisAlignment.center,
-            //               crossAxisAlignment:CrossAxisAlignment.start ,
-            //               children: [
-            //                 Text("${product[3]['name']}",style: GoogleFonts.cambo(
-            //                   fontSize: 23,
-            //                   letterSpacing: 1,
-            //                   fontWeight: FontWeight.bold,
-            //                   color: Color(0xff3C2317),
-            //                 ),),
-            //                 Padding(padding: EdgeInsets.all(5)),
-            //                 Text("${product[3]['sub']}",style: GoogleFonts.cambo(
-            //                   fontSize: 20,
-            //                   letterSpacing: 1,
-            //                   fontWeight: FontWeight.bold,
-            //                   color: Color(0xff3C2317),
-            //                 ),),
-            //                 Padding(padding: EdgeInsets.all(5)),
-            //                 Text("${product[3]['pr']}",style: GoogleFonts.cambo(
-            //                   fontSize: 25,
-            //                   letterSpacing: 1,
-            //                   fontWeight: FontWeight.bold,
-            //                   color: Colors.red.shade900,
-            //                 ),),
-            //                 Padding(padding: EdgeInsets.all(2)),
-            //                 Container(
-            //                   height: 30,
-            //                   width: 150,
-            //                   child : Center(
-            //                     child: Text("Add to Cart",style: GoogleFonts.acme(
-            //                       fontSize: 20,
-            //                       letterSpacing: 1,
-            //                       fontWeight: FontWeight.bold,
-            //                       color: Colors.white,
-            //                     ),),
-            //                   ),
-            //                   decoration: BoxDecoration(
-            //                       color: Color(0xff3C2317),
-            //                       borderRadius: BorderRadius.circular(5)
-            //                   ),
-            //                 )
-            //               ],
-            //             )
-            //           ],
-            //         ),
-            //       ),
-            //     ),
-            //
-            //   ],
-            // )  :(Globals.start<=40000 && Globals.end>30000)?
-            // Column(
-            //   children: [
-            //     Container(
-            //       margin: EdgeInsets.all(10),
-            //       child: Container(
-            //         height: 200,
-            //         width: 400,
-            //         decoration: BoxDecoration(
-            //           border: Border.all(color: Color(0xff594545),width: 5),
-            //           borderRadius: BorderRadius.circular(5),
-            //           color: Colors.black12,
-            //         ),
-            //         child: Row(
-            //           children: [
-            //             Padding(padding: EdgeInsets.all(10)),
-            //             Image(image: AssetImage(product[4]['pic']),
-            //               height: 150,
-            //             ),
-            //             Padding(padding: EdgeInsets.all(10)),
-            //             Column(
-            //               mainAxisAlignment: MainAxisAlignment.center,
-            //               crossAxisAlignment:CrossAxisAlignment.start ,
-            //               children: [
-            //                 Text("${product[4]['name']}",style: GoogleFonts.cambo(
-            //                   fontSize: 23,
-            //                   letterSpacing: 1,
-            //                   fontWeight: FontWeight.bold,
-            //                   color: Color(0xff3C2317),
-            //                 ),),
-            //                 Padding(padding: EdgeInsets.all(5)),
-            //                 Text("${product[4]['sub']}",style: GoogleFonts.cambo(
-            //                   fontSize: 20,
-            //                   letterSpacing: 1,
-            //                   fontWeight: FontWeight.bold,
-            //                   color: Color(0xff3C2317),
-            //                 ),),
-            //                 Padding(padding: EdgeInsets.all(5)),
-            //                 Text("${product[4]['pr']}",style: GoogleFonts.cambo(
-            //                   fontSize: 25,
-            //                   letterSpacing: 1,
-            //                   fontWeight: FontWeight.bold,
-            //                   color: Colors.red.shade900,
-            //                 ),),
-            //                 Padding(padding: EdgeInsets.all(2)),
-            //                 Container(
-            //                   height: 30,
-            //                   width: 150,
-            //                   child : Center(
-            //                     child: Text("Add to Cart",style: GoogleFonts.acme(
-            //                       fontSize: 20,
-            //                       letterSpacing: 1,
-            //                       fontWeight: FontWeight.bold,
-            //                       color: Colors.white,
-            //                     ),),
-            //                   ),
-            //                   decoration: BoxDecoration(
-            //                       color: Color(0xff3C2317),
-            //                       borderRadius: BorderRadius.circular(5)
-            //                   ),
-            //                 )
-            //               ],
-            //             )
-            //           ],
-            //         ),
-            //       ),
-            //     ),
-            //
-            //   ],
-            // )  : (Globals.start<=50000 && Globals.end>0)?
+
       Column(
               children: [
                 ...product.map((e) {return  Container(
@@ -425,7 +149,7 @@ class _DetailState extends State<Detail> {
                           crossAxisAlignment:CrossAxisAlignment.start ,
                           children: [
                             Text("${e['name']}",style: GoogleFonts.cambo(
-                              fontSize: 23,
+                              fontSize: 20,
                               letterSpacing: 1,
                               fontWeight: FontWeight.bold,
                               color: Color(0xff3C2317),
@@ -439,7 +163,7 @@ class _DetailState extends State<Detail> {
                             ),),
                             Padding(padding: EdgeInsets.all(5)),
                             Text("${e['pr']}",style: GoogleFonts.cambo(
-                              fontSize: 25,
+                              fontSize: 20,
                               letterSpacing: 1,
                               fontWeight: FontWeight.bold,
                               color: Colors.red.shade900,

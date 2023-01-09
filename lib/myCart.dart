@@ -28,7 +28,7 @@ class _addtocartState extends State<addtocart> {
         title: Text(
           "My Cart",
           style: GoogleFonts.acme(
-            fontSize: 30,
+            fontSize: 25,
             letterSpacing: 1,
             fontWeight: FontWeight.bold,
             color: Colors.white,
@@ -76,7 +76,7 @@ class _addtocartState extends State<addtocart> {
                         Text(
                           "${Globals.addCart[index]['cname']}",
                           style: GoogleFonts.exo(
-                              fontSize: 25,
+                              fontSize: 20,
                               color: Colors.pink.shade900,
                               fontWeight: FontWeight.bold,
                               letterSpacing: 1),
@@ -85,7 +85,7 @@ class _addtocartState extends State<addtocart> {
                         Text(
                           "${Globals.addCart[index]['csub']}",
                           style: GoogleFonts.exo(
-                              fontSize: 20,
+                              fontSize: 15,
                               color: Colors.pink.shade900,
                               fontWeight: FontWeight.bold,
                               letterSpacing: 1),

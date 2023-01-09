@@ -22,24 +22,12 @@ class _HomeState extends State<Home> {
             height: 900,
             width: 500,
             decoration: BoxDecoration(
-                gradient: LinearGradient(
-                    colors: [
-                      Color(0xff603813),
-                      Color(0xffB29F94),
-                    ],
-                    begin: Alignment.topCenter,
-                    end:Alignment.bottomCenter,
-                )
+               color: Colors.black26
             ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("LOG IN",style: TextStyle(
-                  fontFamily: 'varsity_regular',
-                  fontSize: 50,
-                  letterSpacing: 2,
-                  color: Colors.white,
-                ),),
+               
                 Padding(padding: EdgeInsets.all(15)),
                 Form(
                   key: _formKey,
@@ -50,7 +38,7 @@ class _HomeState extends State<Home> {
                           margin: EdgeInsets.all(10),
                           child: TextFormField(
                             style: GoogleFonts.aleo(
-                              fontSize: 20,
+                              fontSize: 12,
                                 color: Colors.black,
                                 fontWeight: FontWeight.bold,
                             ),
@@ -65,7 +53,7 @@ class _HomeState extends State<Home> {
                                 filled: true,
                                 hintText: "Phone",
                                 hintStyle: GoogleFonts.robotoSlab(
-                                  fontSize: 20,
+                                  fontSize: 12,
                                   color: Colors.black45,
                                 )
                             ),
@@ -88,7 +76,7 @@ class _HomeState extends State<Home> {
                         Container(
                           margin: EdgeInsets.all(10),
                           child: TextFormField( style: GoogleFonts.aleo(
-                            fontSize: 20,
+                            fontSize: 12,
                             color: Colors.black,
                             fontWeight: FontWeight.bold,
                           ),
@@ -101,7 +89,7 @@ class _HomeState extends State<Home> {
                                 filled: true,
                                 hintText: "email",
                                 hintStyle: GoogleFonts.robotoSlab(
-                                  fontSize: 20,
+                                  fontSize: 12,
                                   color: Colors.black45,
                                 )
                             ),
@@ -124,7 +112,7 @@ class _HomeState extends State<Home> {
                         Container(
                           margin: EdgeInsets.all(10),
                           child: TextFormField( style: GoogleFonts.aleo(
-                            fontSize: 20,
+                            fontSize: 12,
                             color: Colors.black,
                             fontWeight: FontWeight.bold,
                           ),
@@ -137,7 +125,7 @@ class _HomeState extends State<Home> {
                                 filled: true,
                                 hintText: "First Name",
                                 hintStyle: GoogleFonts.robotoSlab(
-                                  fontSize: 20,
+                                  fontSize: 12,
                                   color: Colors.black45,
                                 )
                             ),
@@ -160,7 +148,7 @@ class _HomeState extends State<Home> {
                         Container(
                           margin: EdgeInsets.all(10),
                           child: TextFormField( style: GoogleFonts.aleo(
-                            fontSize: 20,
+                            fontSize: 12,
                             color: Colors.black,
                             fontWeight: FontWeight.bold,
                           ),
@@ -173,7 +161,7 @@ class _HomeState extends State<Home> {
                                 filled: true,
                                 hintText: "last Name",
                                 hintStyle: GoogleFonts.robotoSlab(
-                                  fontSize: 20,
+                                  fontSize: 12,
                                   color: Colors.black45,
                                 )
                             ),
@@ -196,7 +184,7 @@ class _HomeState extends State<Home> {
                         Container(
                           margin: EdgeInsets.all(10),
                           child: TextFormField( style: GoogleFonts.aleo(
-                            fontSize: 20,
+                            fontSize: 12,
                             color: Colors.black,
                             fontWeight: FontWeight.bold,
                           ),
@@ -226,7 +214,7 @@ class _HomeState extends State<Home> {
                                 filled: true,
                                 hintText: "Password",
                                 hintStyle: GoogleFonts.robotoSlab(
-                                  fontSize: 20,
+                                  fontSize: 12,
                                   color: Colors.black45,
                                 )
                             ),
@@ -251,13 +239,6 @@ class _HomeState extends State<Home> {
                             setState(() {
 
                               if (_formKey.currentState!.validate()) {
-                                ScaffoldMessenger.of(context).showSnackBar(
-                                    SnackBar(
-                                      duration: Duration(seconds: 5),
-                                      content :Text("Log in Succesfully!!"),
-                                      behavior : SnackBarBehavior.floating,
-                                    )
-                                );
                                 Navigator.of(context).pushNamed('dash');
                               } else {
 
@@ -267,14 +248,14 @@ class _HomeState extends State<Home> {
                           },
                           child: Container(
                             height: 60,
-                            width: 200,
+                            width: 150,
                             decoration: BoxDecoration(
                               color: Color(0xff594545),
-                              borderRadius: BorderRadius.circular(20)
+                              borderRadius: BorderRadius.circular(12)
                             ),
                             alignment: Alignment.center,
                             child: Text("Submit",style: GoogleFonts.robotoSlab(
-                              fontSize: 25,
+                              fontSize: 20,
                               color: Colors.white,
                             ),),
                           ),
